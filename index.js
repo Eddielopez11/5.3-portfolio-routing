@@ -13,7 +13,7 @@ render((
       <Route path="/profile" component={ Profile }/>
       <Route path="/blog" component={ Blog }/>
       <Route path="/projects" component={ Projects }/>
-      <Route path="/projectdetails" component={ ProjectDetails }/>
+      <Route path="/projectdetails/:projectname" component={ ProjectDetails }/>
     </Route>
   </Router>
 ), document.getElementById('portfolio'))
