@@ -1,3 +1,19 @@
 /*
   Main Stylesheet
 */
+
+body {
+  background-color: rgba(255, 253, 234, .2);
+  font-family: sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 800px;
+}
+
+.profile__avatar {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
